@@ -119,6 +119,6 @@ print.noquote(c(paste("  ",head(colnames(newdat),5)),"   ...",paste("  ",tail(co
 tidyDat <- select(newdat, -ActivityCode)
 print.noquote("The average of each variable, grouped by Activity and Subject:")
 tidyAverages <- summarize_each(group_by(tidyDat,Activity,SubjectCode), funs(mean))
-# Write the output to a file so it can be analyzed
-write.csv(tidyAverages, file="output.csv")
+# Write the output to a file as specified by submission requirement
+write.table(tidyAverages, file="output.txt", row.names = FALSE)
 print(tidyAverages)

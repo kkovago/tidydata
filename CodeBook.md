@@ -1,7 +1,7 @@
 # Code Book
 
 The features of the input data set are documented in the features_info.txt file.
-At the end of processing the data, the results are in a data frame called tidyAverages in the R script, and also written out into the "output.csv" file.
+At the end of processing the data, the results are in a data frame called tidyAverages in the R script, and also written out into the "output.txt" file.
 The variables are the following:
 
 ```

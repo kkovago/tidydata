@@ -38,7 +38,7 @@ So for the extraction the following expression is used:grep("[Mm]ean|std|Activit
 * A new data set is created, without the ActivityCode column (it is redundant with the more descriptive Activity).
 
 ## Creating the averages of each variable for each activity and each subject
-* The new data set is grouped by Activity and SubjectCode, then for each of its measures the mean is calculated. The result is in the tidyAverages data frame. As it cannot be effectively visualized on screen, the result is written into a file called "output.csv" for further analysis.
+* The new data set is grouped by Activity and SubjectCode, then for each of its measures the mean is calculated. The result is in the tidyAverages data frame. As it cannot be effectively visualized on screen, the result is written into a file called "output.txt" for further analysis.
 
 
 
